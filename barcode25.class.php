@@ -22,7 +22,6 @@ class BarcodeI25
 		if (!$widthFactor) 
 		{
 			$widthFactor=round(($h*3.2/107), 2);
-			//var_dump($widthFactor);
 		}
 		
 		$this->widthFactor=$widthFactor;
